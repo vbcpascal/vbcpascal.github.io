@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 《代码整洁之道》阅读笔记
-categories: Reading
+categories: Java, Reading
 description: 记录一些《代码整洁之道》的要点
 keywords: Java, Reading
 ---
@@ -9,6 +9,8 @@ keywords: Java, Reading
 # 《代码整洁之道》阅读笔记
 
 *Clean Code: A Handbook of Agile Software Craftsmanship* 是 Robert C. Martin 的书籍。本书提出“代码质量与其整洁度成正比”，以Java语言为例，并从命名到重构多个角度讲述代码整洁之道。以下为笔者提炼的一些内容。
+
+![](/images/posts/reading/cleancode.png)
 
 
 
@@ -83,6 +85,60 @@ keywords: Java, Reading
 7. 不要重复。
 
 > Edsger Dijkstra 的结构化编程原则：每个函数、函数中的代码块都应该有一个入口、一个出口，意味着每个函数中只有一条`return`语句。循环中不能有`break`、`continue`，而且永永远远不能有`goto`。
+
+
+
+## 第四章	注释
+
+> 别给糟糕的代码写注释，重新写吧。		—— Brian W.Kernighan 与 P.J. Plaugher
+
+1. 尽可能用好的代码阐述，而非注释；
+
+2. （作者认为的）好的注释如下：
+
+   - 法律信息；
+
+   - 提供信息的注释。如解释了某个抽象方法的返回值；
+
+   - 对意图的解释；
+
+   - 警示；
+
+   - TODO注释：记得删除；
+
+   - 放大看起来不合理事物的重要性；
+
+3. 坏的注释举了很多例子，大多都是指“废话”：
+
+   - 署名、日志、位置标记（如一串`/////`）等；
+   - 删除注释的代码！
+
+作者认为有时文档的注释就是典型的“废话”，如下，可是又能怎么办呢。
+
+``` java
+/** The name */
+private String name;
+```
+
+
+
+## 第五章	格式
+
+1. 垂直格式
+
+   每个文件尽量200行，最多500行；
+
+   用空白行分隔代码组；
+
+   关系密切的概念相互靠近；
+
+2. 横向格式
+   
+   操作符前后空格；
+   
+   缩进；
+   
+3. 遵循团队规则；
 
 
 
