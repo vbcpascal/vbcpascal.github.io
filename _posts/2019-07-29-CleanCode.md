@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 《代码整洁之道》阅读笔记
-categories: Java, Reading
+categories: [Java, Reading]
 description: 记录一些《代码整洁之道》的要点
 keywords: Java, Reading
 ---
@@ -10,7 +10,7 @@ keywords: Java, Reading
 
 *Clean Code: A Handbook of Agile Software Craftsmanship* 是 Robert C. Martin 的书籍。本书提出“代码质量与其整洁度成正比”，以Java语言为例，并从命名到重构多个角度讲述代码整洁之道。以下为笔者提炼的一些内容。
 
-![](/images/posts/reading/cleancode.png)
+![](/images/reading/cleancode.png)
 
 
 
