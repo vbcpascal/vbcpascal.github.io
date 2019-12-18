@@ -2,5 +2,13 @@
   keywords:
       - C/C++
       - Pascal
+      - Java
       - Python
       - Scheme
+      - Haskell
+
+- name: Editor
+  keywords:
+      - Vim
+      - VSCode
+      
