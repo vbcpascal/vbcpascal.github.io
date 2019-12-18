@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 浅谈 λ 演算（一）
-categories: [计算理论, 函数式编程]
+categories: [Theory of computation, Functional programming]
 description: 介绍 λ 演算
-keywords: LC, 计算理论, 函数式编程
+keywords: LC, Theory of computation, Functional programming
 ---
 <font color="red">本系列尚未更新完毕！</font>
 
