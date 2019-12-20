@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 小谈 λ 演算（二）邱奇数
-categories: [Theory of computation, Functional programming]
+categories: [Theory, Functional]
 description: 介绍 λ 演算
 keywords: LC, Theory of computation, Functional programming
 ---
