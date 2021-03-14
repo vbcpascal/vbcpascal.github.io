@@ -112,7 +112,7 @@ collections:
 #      Comments    #
 # ---------------- #
 # support provider: disqus, gitment, gitalk
-comments_provider: gittalk
+comments_provider: gitalk
 
 # https://github.com/gitalk/gitalk#install
 gitalk:
