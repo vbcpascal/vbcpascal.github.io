@@ -8,11 +8,11 @@ menu: 链接
 permalink: /links/
 ---
 
-> 感·谢·相·遇
+> 每天，我和他们在一起~
 
 {% for link in site.data.links %}
 
-- ** [{{ link.name }}]({{ link.url }}) **
+- **[{{ link.name }}]({{ link.url }})**
 
   {{ link.des }}
 

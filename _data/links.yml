@@ -1,3 +1,11 @@
+- name: 北京大学程序设计语言实验室
+  url: http://pl.cs.pku.edu.cn/
+  des: 程序设计语言研究室隶属北京大学计算机科学技术系软件研究所和北京大学软件工程研究所，是高可信软件技术教育部重点实验室的组成部分。
+
+- name: 胡振江教授
+  url: http://sei.pku.edu.cn/~hu/
+  des: 北京大学讲席教授。在程序设计语言，函数式语言，软件工程，程序演算等领域有突出研究成果。我的导师。
+
 - name: Jsteward
   url: https://jsteward.moe/
   des: 大佬室友。在这里你可以看到关于[EDA](https://jsteward.moe/category/eda.html)、[Gentoo](https://jsteward.moe/category/gentoo.html)等相关内容。
