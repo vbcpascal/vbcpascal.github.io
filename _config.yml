@@ -1,3 +1,23 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
@@ -26,7 +46,7 @@ organization: Peking Uni
 organization_url: https://www.pku.edu.cn
 github_username: vbcpascal
 location: Beijing, China
-email: vbcpascal@outlook.com
+email: vbcpascal@outlook.comw
 
 # ---------------- #
 #    Navigation    #
@@ -40,9 +60,9 @@ navs:
     href: /categories/
     label: 分类
 
-#   -
-#     href: /archives/
-#     label: 归档
+  -
+    href: /archives/
+    label: 归档
 
   -
     href: /wiki/
@@ -76,12 +96,13 @@ permalink: /:year/:month/:day/:title/
 gems:
     - jekyll-github-metadata
     - rouge
-#     - jekyll-html-pipeline
+    - jekyll-html-pipeline
     - jekyll-paginate
     - jekyll-sitemap
     - jekyll-feed
     - jemoji
-#     - jekyll-mentions
+    - jekyll-mentions
+
 collections:
     wiki:
         output: true
@@ -91,25 +112,16 @@ collections:
 #      Comments    #
 # ---------------- #
 # support provider: disqus, gitment, gitalk
-comments_provider: 
-# !!!重要!!! 请修改下面这些信息为你自己申请的
-# !!!Important!!! Please modify infos below to yours
-# https://disqus.com
-disqus:
-    username: 
-# https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner:
-    repo: 
-    oauth:
-        client_id:
-        client_secret:
+comments_provider: gittalk
+
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: 
-    repo: 
-    clientID: 
-    clientSecret:
+    owner         : vbcpascal
+    repo          : vbcpascal.github.io
+    clientID      : 0b35118a064cd364ed0c
+    clientSecret  : 36f0320bdab5c43e61227f5397fcde314ed92c75
+    admin:
+      - vbcpascal
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
@@ -120,4 +132,4 @@ simple_jekyll_search:
     # 是否支持全文搜索
     fulltext: true
     # 最多显示多少条搜索结果
-    limit: 10
+    limit: 20
