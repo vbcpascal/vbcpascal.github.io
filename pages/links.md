@@ -12,7 +12,7 @@ permalink: /links/
 
 {% for link in site.data.links %}
 
-- **[{{ link.name }}]({{ link.url }})**
+- [{{ link.name }}]({{ link.url }})
 
   {{ link.des }}
 
