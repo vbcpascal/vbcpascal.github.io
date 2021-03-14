@@ -91,7 +91,9 @@ kramdown:
 mathjax: true
 mathjax_autoNumber: true
 mermaid: true
-chart: true
+sequence: true
+flow: true
+mindmap: true
 
 highlighter: rouge
 paginate: 8
