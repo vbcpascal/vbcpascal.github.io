@@ -1,9 +1,11 @@
-- name: 码志
-  url: https://mazhuang.org/
-
 - name: Jsteward
   url: https://jsteward.moe/
+  des: 大佬室友。在这里你可以看到关于[EDA](https://jsteward.moe/category/eda.html)、[Gentoo](https://jsteward.moe/category/gentoo.html)等相关内容。
 
 - name: Monad
   url: https://krantz-xrf.github.io/
+  des: 客观的Haskell吹。在[Haskell](https://krantz-xrf.github.io/archive.html?tag=Haskell)的文章之间，你甚至可以读到[金庸](https://krantz-xrf.github.io/archive.html?tag=%E6%8B%9F%E9%9A%8F%E6%84%9F%E5%BD%95)。
   
+- name: 码志
+  url: https://mazhuang.org/
+  des: 该博客的模板来源。
