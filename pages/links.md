@@ -11,6 +11,9 @@ permalink: /links/
 > 感·谢·相·遇
 
 {% for link in site.data.links %}
-- ** [{{ link.name }}]({{ link.url }})
-  link.des
+
+- ** [{{ link.name }}]({{ link.url }}) **
+
+  {{ link.des }}
+
 {% endfor %}
