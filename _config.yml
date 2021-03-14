@@ -87,6 +87,14 @@ subscribe_rss: /feed.xml
 markdown: kramdown
 kramdown:
     input: GFM
+
+mathjax: true
+mathjax_autoNumber: true
+mermaid: true
+sequence: true
+flow: true
+mindmap: true
+
 highlighter: rouge
 paginate: 8
 lsi: false
