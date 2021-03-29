@@ -1,12 +1,16 @@
 ---
 layout: post
 title: 小谈 λ 演算（一）定义、柯里化和闭包
-categories: [Theory, Functional]
+categories: [Theory of Computation, Functional Programming]
 description: 介绍 λ 演算
-keywords: LC, Theory of computation, Functional programming
+keywords: LC, Theory of Computation, Functional Programming
 ---
 
-笔者近期沉迷于函数式编程，并借此机会学习一下 λ 演算。
+下一篇文章：[小谈 λ 演算（二）邱奇数]({{ site.url}}/2019/09/02/LambdaCalculus-2/)
+{:.article_link}
+
+接触函数式编程已经有一段时间了，但是对其基础了解并不是很多，因此最近特意抽出一些时间研究分享一下 λ 演算的相关内容。笔者在完成这篇文章时已有 Haskell 的基础，因此读者阅读时请根据自己的情况进行选择。
+{:.info}
 
 以下是关于 λ 演算在 [wiki](https://zh.wikipedia.org/wiki/Λ演算) 中给出的定义:
 
@@ -98,6 +102,9 @@ $$
 
 1. 函数的作用是左结合的；
 2. λ操作符被绑定到它后面的整个表达式。
+
+下一篇文章：[小谈 λ 演算（二）邱奇数]({{ site.url}}/2019/09/02/LambdaCalculus-2/)
+{:.article_link}
 
 ## 参考文献
 
