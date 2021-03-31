@@ -245,8 +245,10 @@ void removeBindings(const ExcludePredicate &predicate);
 ``` cpp
 class DynTypedMatcher {
   public:
+    // changed
     DynTypedMatcher(IRNodeType supportedNodeType): allowBind(false), supportedNodeType(supportedNodeType) {}
     
+    // changed
     void setAllowBind(bool ab) { allowBind = ab; }
     
     bool canMatchNodesOfKind(IRNodeType nodeType) const {
@@ -254,16 +256,21 @@ class DynTypedMatcher {
     }
     
     bool matches(Node* node, BoundNodesTreeBuilder* builder) const {
-        return canMatchNodesOfKind(node->getType());
+        if (canMatchNodesOfKind(node->getType()) && 
+            implementation->dynMatches(node)) {
+            return true;
+        };
+        return false;
     }
     
+    // changed
     optional<DynTypedMatcher> tryBind(const string& id) const {
         ...
     }
     
   private:
     IRNodeType supportedNodeType;
-    bool allowBind;
+    bool allowBind;  // changed
 };
 
 class BindableMatcher : public DynTypedMatcher {
@@ -319,7 +326,9 @@ class IdMatcherInterface : public DynMatcherInterface {
 通过 Id，我们可以实现 tryBind 的功能了：
 
 ``` cpp
-optional<DynTypedMatcher> tryBind(const string& id) const {
+optional<DynTypedMatcher> 
+DynTypedMatcher::tryBind(const string& id) const {
+    // changed
     if (!allowBind) return nullopt;
     DynTypedMatcher result = *this;
     result.implementation = 
@@ -328,4 +337,18 @@ optional<DynTypedMatcher> tryBind(const string& id) const {
 }
 ```
 
-到现在位置，我们的一部分 Matcher 已经可以提供绑定功能了。现在，我们可以休息一下！下一次我们将面临更加复杂的局面。
+还没有结束！可以发现，如果我们匹配失败了，变量的绑定会残留在其中。但是事实上，我们应当毫不留情地给他清空！
+
+``` cpp
+bool DynTypedMatcher::matches(Node* node, BoundNodesTreeBuilder* builder) const {
+    if (canMatchNodesOfKind(node->getType()) && 
+        implementation->dynMatches(node)) {
+        return true;
+    };
+    // changed
+    builder->removeBindings([](const BoundNodesMap &) {return true;});
+    return false;
+}
+```
+
+到现在为止，我们的一部分 Matcher 已经可以提供绑定功能了。现在，我们可以休息一下！下一次我们将面临更加复杂的局面。
