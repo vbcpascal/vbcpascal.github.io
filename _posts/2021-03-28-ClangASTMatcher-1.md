@@ -114,7 +114,7 @@ class DynTypedMatcher {
 
 1. 你可能注意到了后面还有一个 `Matcher<T>` 的匹配器，用来匹配 `T` 类型节点的匹配器。这类匹配器可以在编译时期检查到节点类型不符合，本文为了简洁，忽略掉这部分内容。
 2. Clang 中的 private 部分记录了两种类型，分别是 `SupportedKind` 和 `RestrictKind`，但是被初始化成了相同的值。说实话笔者这里也没太看懂……希望读懂的朋友留言。
-{:.error}
+{:.warning}
 
 #### MatcherInterface
 
@@ -206,7 +206,7 @@ DynTypedMatcher hasCond(DynTypedMatcher& innerMatcher) {
 ```
 
 在 Clang 中，`hasCond` 等一类匹配器是通过统一的宏实现的，这是因为大部分的 Traversal Matcher 的实现方法与上例使用了相同的 Pattern，利于对匹配器的扩展。
-{:.error}
+{:.warning}
 
 下面我们给 Matcher 加一个新功能：绑定！
 
@@ -293,7 +293,7 @@ class BindableMatcher : public DynTypedMatcher {
 
 1. Clang 中将 BindableMatcher 同样实现成了一个模板类，继承自 `Matcher<T>`，我们这里为了方便，同样忽略这一部分。
 2. Clang 中使用的是 LLVM 中自己实现的 Optional，我们可以使用 C++ 标准库中的版本（注意：这是 C++17！）
-{:.error}
+{:.warning}
 
 下面就要实现目标1了。Clang 中的实现是实现了一个 IdMatcherInterface。它的功能是接受一个 MatcherInterface，匹配时如果成功，则在 Binding 中加入新的变量绑定。
 
@@ -318,7 +318,7 @@ class IdMatcherInterface : public DynMatcherInterface {
 
 1. Clang 中使用的名字是 IdDynMatcher，这里为了防止概念混淆，改名为 IdMatcherInterface。
 2. Clang 中的成员变量写作 `IntrusiveRefCntPtr<DynMatcherInterface>` ，是带引用计数的，或许可以通过 `std::shared_ptr` 实现，但是我这里偷懒了。
-{:.error}
+{:.warning}
 
 这里的 Id 是带了个“标签”的匹配器，不是函数式里的 `id :: a -> a`。
 {:.info}
