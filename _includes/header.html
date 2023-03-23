@@ -6,7 +6,7 @@
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
 
     {%- if page.language == "zh" -%}
-    <a class="site-title" rel="author" href="/">{{ site.title_zh | escape }}</a>
+    <a class="site-title" rel="author" href="/zh/">{{ site.title_zh | escape }}</a>
     {%- else -%}
     <a class="site-title" rel="author" href="/">{{ site.title | escape }}</a>
     {%- endif -%}
