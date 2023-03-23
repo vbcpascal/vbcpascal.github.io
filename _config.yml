@@ -1,0 +1,68 @@
+title: Zhichao Guan's Home Page
+title_zh: 关智超的个人主页
+
+description: >- # this means to ignore newlines until "baseurl:"
+  Design your language, design your life.
+description_zh: >-
+  设计你的语言，谱写你的生活。
+
+# baseurl: "/DecksOfUnderworld"
+# url: "https://vbcpascal.cn/"
+
+author:
+  name: Zhichao Guan
+  name_zh: 关智超
+  email: vbcpascal@outlook.com
+
+# Build settings
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  # Minima date format.
+  # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
+  #
+  # date_format: "%b %-d, %Y"
+
+  # Generate social links in footer.
+  #
+  social_links:
+    - { platform: github,         user_url: "https://github.com/vbcpascal" }
+    - { platform: telegram,       user_url: "https://t.me/vbcpascal" }
+  #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
+  #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
+  #   - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
+  #   - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
+  #   - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
+  #   - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
+  #   - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
+  #   - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
+  #   - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
+  #   - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
+  #   - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
+  #   - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
+  #   - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
+
+header_pages:
+- en: Blog
+  cn: 博客
+  url: blog
+
+# header_links:
+# - en: Blog
+#   link: blog.md
+# - cn: 博客
+#   link: blog_cn.md
+# - en: 中文
+#   link: zh.md
+
+# - title_en: 中文
+#   title_cn: EN
+
+
+# Set to `true` to show excerpts on the homepage.
+#
+# show_excerpts: false

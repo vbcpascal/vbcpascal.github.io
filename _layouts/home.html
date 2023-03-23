@@ -1,0 +1,26 @@
+---
+layout: base
+---
+
+<div class="index-row">
+
+  <div class="col col-left">
+    <div class="profile">
+      <img class="avatar" src="/assets/author/self.jpg">
+      <div class="profile-info">
+        {%- if page.language == "zh" -%}
+        <h2> {{ site.author.name_zh }} </h2>
+        {%- else -%}
+        <h2> {{ site.author.name }} </h2>
+        {%- endif -%}
+        <h3> vbcpascal@outlook.com </h3>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="col col-right">
+    {{ content }}
+  </div>
+
+</div>

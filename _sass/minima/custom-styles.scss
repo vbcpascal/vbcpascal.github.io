@@ -1,0 +1,85 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.itcomment {
+  color: gray;
+  font-style: italic;
+}
+
+.comment {
+  color: gray;
+}
+
+.profile {
+  text-align: center;
+  padding: 30px 10px;
+  position: relative;
+
+  .avatar {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 50%;
+    max-width: 100%;
+    display: block;
+  }
+}
+
+.profile-info {
+  h2 {
+    font-size: 1.75em;
+    font-weight: 300;
+    margin: 20px 0 5px;
+  }
+
+  h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(0, 0, 0, .54);
+    margin: 0 0 5px
+  }
+}
+
+.col {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.index-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.col-left {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.col-right {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+
+@media screen and (min-width: $on-medium) {
+  .index-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .col-left {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+
+  .col-right {
+    flex: 0 0 calc(60% - 20px);
+    max-width: calc(60% - 20px);
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,41 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ " /" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        {%- if site.author %}
+        <ul class="contact-list">
+          {%- if page.language == "zh" -%}
+          {% if site.author.name -%}
+          <li class="p-name">{{ site.author.name_zh | escape }}</li>
+          {% endif -%}
+          {%- else -%}
+          {% if site.author.name -%}
+          <li class="p-name">{{ site.author.name | escape }}</li>
+          {% endif -%}
+          {%- endif -%}
+
+          {% if site.author.email -%}
+          <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          {%- endif %}
+        </ul>
+        {%- endif %}
+      </div>
+      <div class="footer-col">
+        {%- if page.language == "zh" -%}
+        <p>{{ site.description_zh | escape }}</p>
+        {%- else -%}
+        <p>{{ site.description | escape }}</p>
+        {%- endif -%}
+      </div>
+    </div>
+
+    <div class="social-links">
+      {%- include social.html -%}
+    </div>
+
+  </div>
+
+</footer>
