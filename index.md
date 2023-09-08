@@ -8,14 +8,14 @@ I am Ph.D. student at [Peking University](https://english.pku.edu.cn/), a member
 My email address consists of the first three languages I learned: Visual Basic, C/C++, and Pascal.
 </p>
 
-### Education
+## Education
 
 - Ph.D. Student in Computer Science, 2021-
   <p class="comment">Programming Languages Lab, School of Computer Science, Peking University</p>
 - BSc in Computer Science, 2017-2021
   <p class="comment">School of EECS, Peking University</p>
 
-### Publications
+## Publications
 
 {% include publications.md %}
 

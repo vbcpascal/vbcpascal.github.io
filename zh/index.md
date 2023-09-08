@@ -9,14 +9,14 @@ language: zh
 我的邮箱名由我最先学习的三门语言组成：Visual Basic、C/C++、Pascal。
 </p>
 
-### 教育经历
+## 教育经历
 
 - 计算机软件与理论 博士（2021-）
   <p class="comment">北京大学 计算机学院 程序设计语言研究室</p>
 - 计算机科学 学士（2017-2021）
   <p class="comment">北京大学 信息科学技术学院</p>
 
-### 论文
+## 论文
 
 {% include publications.md %}
 
