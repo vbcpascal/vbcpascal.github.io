@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 配置 Haskell 开发环境（2023）
+title: 【计算概论】配置 Haskell 开发环境（2023）
 categories: [cn]
 description: 计算概论扩展文档
 keywords: Haskell
