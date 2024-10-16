@@ -17,7 +17,7 @@ permalink: /en/blog/
       <span class="post-meta">{{ post.date | date: date_format }}</span>
       <h3>
         <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
+          {{ post.title-en | escape }}
         </a>
       </h3>
       {%- if site.show_excerpts -%}

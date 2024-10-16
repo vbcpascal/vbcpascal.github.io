@@ -2,5 +2,11 @@
   year: 2022
   title: A Lazy Desugaring System for Evaluating Programs with Sugars
   conf: FLOPS 
-
-
+- authors: "**Zhichao Guan**, Yiyuan Cao, Tailai Yu, Ziheng Wang, Di Wang, Zhenjiang Hu"
+  year: 2024
+  title: Semantics Lifting for Syntactic Sugar
+  conf: OOPSLA
+- authors: Yiyuan Cao, **Zhichao Guan**, Yushuo Xiao, Haiyan Zhao, Zhenjiang Hu
+  year: 2023
+  title: "Development of Domain-specific Languages: Status and Prospects (in Chinese)"
+  conf: Science and Technology Foresight

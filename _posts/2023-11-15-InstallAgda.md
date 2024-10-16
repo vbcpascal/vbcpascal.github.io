@@ -1,6 +1,8 @@
 ---
 layout: post
-title: 【计算概论】配置 Agda 开发环境（2023）
+title: 配置 Agda 开发环境（2023）
+title-cn: 【计算概论】配置 Agda 开发环境（2023）
+title-en: "Tutorial: Install Agda (2023, in Chinese)"
 categories: [cn]
 description: 计算概论扩展文档
 keywords: Agda
