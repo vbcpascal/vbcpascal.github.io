@@ -33,7 +33,7 @@ cabal install Agda
 
 请重新打开一个命令行并输入
 ```
-adga --version
+agda --version
 ```
 没什么神奇的，和以前一样，确保安装成功。这一次，请记住 agda 的版本号，例如在我这里是 2.6.4。
 
