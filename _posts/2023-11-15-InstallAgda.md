@@ -129,4 +129,4 @@ data 𝔹 : Set where
 
 2. 在 VSCode 中部分字符出现方框怎么办？
 
-   在 VSCode 的设置中关闭 `Unicode Highlight: Non Basic ASCII`
+   在 VSCode 的设置中关闭 `Unicode Highlight: Non Basic ASCII` 和 `Unicode Highlight: Ambiguous Characters`
