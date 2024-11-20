@@ -126,3 +126,7 @@ data 𝔹 : Set where
 1. 在 VSCode 中加载 Agda 代码后出现乱码怎么办？
    
    在 `agda-mode` 的插件设置中关闭 `Highlighting: Get Highlight With Theme Colors`
+
+2. 在 VSCode 中部分字符出现方框怎么办？
+
+   在 VSCode 的设置中关闭 `Unicode Highlight: Non Basic ASCII`
