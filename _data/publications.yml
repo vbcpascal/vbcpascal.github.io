@@ -1,12 +1,24 @@
-- authors: Ziyi Yang, Yushuo Xiao, **Zhichao Guan** and Zhenjiang Hu
-  year: 2022
-  title: A Lazy Desugaring System for Evaluating Programs with Sugars
-  conf: FLOPS 
+- authors: "**Zhichao Guan**, Tailai Yu, Di Wang, Zhenjiang Hu"
+  year: 2026
+  title: "Localizing Type Errors for Syntactic Sugar by Lifting"
+  conf: OOPSLA
+- authors: "Tailai Yu, **Zhichao Guan**, Di Wang, Zhenjiang Hu"
+  year: 2025
+  title: "Inferring Typing Rules for Contextual Sugars"
+  conf: PEPM
+  link: https://dl.acm.org/doi/10.1145/3779209.3779538
 - authors: "**Zhichao Guan**, Yiyuan Cao, Tailai Yu, Ziheng Wang, Di Wang, Zhenjiang Hu"
   year: 2024
-  title: Semantics Lifting for Syntactic Sugar
+  title: "Semantics Lifting for Syntactic Sugar"
   conf: OOPSLA
+  link: https://dl.acm.org/doi/10.1145/3689758
 - authors: Yiyuan Cao, **Zhichao Guan**, Yushuo Xiao, Haiyan Zhao, Zhenjiang Hu
   year: 2023
   title: "Development of Domain-specific Languages: Status and Prospects (in Chinese)"
   conf: Science and Technology Foresight
+  link: https://doi.org/10.3981/j.issn.2097-0781.2023.01.004
+- authors: Ziyi Yang, Yushuo Xiao, **Zhichao Guan** and Zhenjiang Hu
+  year: 2022
+  title: "A Lazy Desugaring System for Evaluating Programs with Sugars"
+  conf: FLOPS
+  link: https://link.springer.com/chapter/10.1007/978-3-030-99461-7_14

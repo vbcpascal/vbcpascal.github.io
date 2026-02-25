@@ -1,13 +1,10 @@
 title: Zhichao Guan's Home Page
-title_zh: 关智超的个人主页
+title_zh: 关智超的主页
 
-description: >- # this means to ignore newlines until "baseurl:"
-  do research; pure delight
-description_zh: >-
-  do research; pure delight
-
-# baseurl: "/DecksOfUnderworld"
-# url: "https://vbcpascal.cn/"
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Haskell 
+# description_zh: >-
+#   do research; pure delight
 
 author:
   name: Zhichao Guan
@@ -31,7 +28,7 @@ minima:
   #
   social_links:
     - { platform: github,         user_url: "https://github.com/vbcpascal" }
-    - { platform: telegram,       user_url: "https://t.me/vbcpascal" }
+  #   - { platform: telegram,       user_url: "https://t.me/vbcpascal" }
   #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
   #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
   #   - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }

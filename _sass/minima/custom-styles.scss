@@ -10,37 +10,6 @@
   color: gray;
 }
 
-.profile {
-  text-align: center;
-  // padding: 30px 10px;
-  position: relative;
-
-  .avatar {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    object-fit: cover;
-    border-radius: 50%;
-    max-width: 100%;
-    display: block;
-  }
-}
-
-.profile-info {
-  h2 {
-    font-size: 1.75em;
-    font-weight: 300;
-    margin: 20px 0 5px;
-  }
-
-  h3 {
-    font-size: 1rem;
-    font-weight: 300;
-    color: rgba(0, 0, 0, .54);
-    margin: 0 0 5px
-  }
-}
-
 .profile-detail {
   h2 {
     margin-top: 30px;
@@ -59,7 +28,9 @@
   margin-right: -15px;
 
   h2 {
+    font-size: 1.2em;
     width: 100%;
+    margin-left: 10px;
   }
 }
 
@@ -73,6 +44,37 @@
   max-width: 100%;
 }
 
+
+.profile {
+  text-align: center;
+  // padding: 30px 10px;
+  position: relative;
+
+  .avatar {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 50%;
+    max-width: 100%;
+    display: block;
+  }
+}
+
+.profile-info {
+  h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 20px 0 5px 0;
+  }
+
+  h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(0, 0, 0, .54);
+    margin: 0 0 5px
+  }
+}
 
 @media screen and (min-width: $on-medium) {
   .index-row {

@@ -40,6 +40,4 @@ language: zh
 
 ## 课程
 
-- 助教：[计算概论（函数式程序设计）](https://zhenjiang888.github.io/FP/) （2022秋、2023秋）
-- 助教：[软件科学基础](https://zhenjiang888.github.io/FP/) （2022春）
-- 助教：计算概论（A）（2019秋）
+{% include teaching-zh.md %}

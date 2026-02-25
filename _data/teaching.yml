@@ -1,0 +1,30 @@
+
+- role: Teaching assistant
+  course: "Fun with Monoids and Friends: Functional Programming with Abstract Algebra" 
+  instructors: Tom Schrijvers
+  minicourse: true
+  time: July 2024
+- role: Teaching assistant
+  course: "Introduction to Functional Programming"
+  instructors: Jeremy Gibbons
+  minicourse: true
+  time: Oct. 2023
+- role: Teaching assistant
+  course: "Introduction to Property Based Testing"
+  instructors: John Hudges
+  minicourse: true
+  time: Oct. 2023
+- role: Teaching assistant
+  course: "Introduction to Functional Programming"
+  instructors: Zhenjiang Hu & Wei Zhang
+  site: "https://zhenjiang888.github.io/FP/"
+  semesters: Fall 2022 and 2023
+- role: Teaching assistant
+  course: "Software Foundations"
+  instructors: Yingfei Xiong
+  site: "https://xiongyingfei.github.io/SF/"
+  semesters: Spring 2022
+- role: Teaching assistant
+  course: "Introduction to Computing (A)"
+  instructors: Yafei Dai
+  semesters: Fall 2019

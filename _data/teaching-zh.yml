@@ -1,0 +1,30 @@
+
+- role: 助教
+  course: "Fun with Monoids and Friends: Functional Programming with Abstract Algebra" 
+  instructors: Tom Schrijvers
+  minicourse: true
+  time: 2024年7月
+- role: 助教
+  course: "Introduction to Functional Programming"
+  instructors: Jeremy Gibbons
+  minicourse: true
+  time: 2023年10月
+- role: 助教
+  course: "Introduction to Property Based Testing"
+  instructors: John Hudges
+  minicourse: true
+  time: 2023年10月
+- role: 助教
+  course: "计算概论实验班（函数式程序设计）"
+  instructors: 胡振江，张伟
+  site: "https://zhenjiang888.github.io/FP/"
+  semesters: 2022秋，2023秋
+- role: 助教
+  course: "软件科学基础"
+  instructors: 熊英飞
+  site: "https://xiongyingfei.github.io/SF/"
+  semesters: 2022春
+- role: 助教
+  course: "计算概论（A）"
+  instructors: 代亚非
+  semesters: 2019秋
